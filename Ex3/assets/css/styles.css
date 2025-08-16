@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Nata+Sans:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+
+ html {
+    font-size: 16px;
+ }
+
+body {
+    background-color: #f3f1f1;
+    font-family: 'Nata Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15rem;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #ffffff;
+    text-shadow: 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 0.5);
+}
+
+.block {
+    background-color: #ffffff;
+    max-width: 50rem;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.block span {
+    background-color: yellow;
+    padding:  0.1rem;
+}
+
+.palestras {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.cards {
+    background: white;
+    width: 16rem;
+    border: 0.1rem solid #ddd;
+    padding: 2rem;
+    text-align: center;
+}
