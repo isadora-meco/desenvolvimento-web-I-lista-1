@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nata+Sans:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+
+html {
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 8rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+h1 {
+    color: white;
+    font-family: 'Nata Sans', sans-serif;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.block {
+    background-color: rgb(100, 98, 98);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10rem;
+    margin-bottom: 2rem;
+}
+
+.block h2 {
+    font-family: 'Nata Sans', sans-serif;
+    color: white;
+}
+
+.block h2 span {
+    background-color: yellow;
+}
+
+.beneficios {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.cards {
+    background-color: rgb(238, 238, 238);
+    padding: 1rem 8rem;
+    text-align: center;
+    border: 0.2rem solid #ddd;
+}
+
+@media (max-width: 768px) {
+    .beneficios {
+        display: flex;
+        flex-direction: column;
+    }
+}
